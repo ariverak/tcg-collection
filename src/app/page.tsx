@@ -1,12 +1,9 @@
 'use client'
 import { Layout } from 'antd'
 import CardList from '@/components/CardList'
+import { pokemonCards } from '@/constants'
 
 const { Content } = Layout
-
-const pokemonCards = Array(32).fill(
-  'https://assets.pokemon.com/static-assets/content-assets/cms2/img/cards/web/XY12/XY12_EN_103.png'
-)
 
 export default function Home() {
   return (

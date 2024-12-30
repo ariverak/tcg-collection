@@ -11,6 +11,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'tcg.pokemon.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'gameofmagicsingles.cl'
       }
     ]
   }
